@@ -1,1 +1,57 @@
+body {
+    background: url("granite-crazy-paving-4114-in-architextures.jpg");
+    background-size: 20%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+#sky {
+    background: linear-gradient(DeepSkyBlue, LightSkyBlue, AliceBlue);
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#sky-symbol {
+    font-size: 150px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#building-1 {
+    background-color: lightgray;
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+#roof-1 {
+    position: relative;
+    bottom: 60px;
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid brown;
+}
+
+#roof-dome {
+    background-color: #4a81d9;
+    width: 120px;
+    height: 60px;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    top: -50px;
+}
